@@ -79,6 +79,12 @@ a {
   text-decoration: none;
 }
 
+.source {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
 .mashape {
   position: fixed;
   bottom: 10px;
