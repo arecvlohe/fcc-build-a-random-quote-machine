@@ -76,7 +76,7 @@
 	      const tweet = document.querySelector('.tweet')
 	      quote.textContent = data.quote
 	      credit.textContent = `— ${data.author} —`
-	      tweet.href = `https://twitter.com/intent/tweet?text=${data.quote} --${data.author}`
+	      tweet.href = `https://twitter.com/intent/tweet?text=${data.quote} -- ${data.author}`
 
 	    })
 	}
