@@ -19,7 +19,7 @@ h1 {
 .content {
   max-width: 760px;
   text-align: center;
-  min-height: 400px;
+  min-height: 250px;
 }
 
 .quote {
@@ -102,6 +102,20 @@ a {
   }
 
   .quote {
-    font-size: 35px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .quote {
+    font-size: 25px;
+  }
+
+  .source {
+    bottom: 40px;
+  }
+
+  .mashape {
+    left: 10px;
   }
 }
