@@ -1,4 +1,5 @@
 const Task = require('data.task')
+require('whatwg-fetch')
 
 const URL = 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous'
 const headers = new Headers({
