@@ -13,7 +13,7 @@ const headers = new Headers({
 */
 const getQuotes = () =>
   new Task((rej, res) => {
-    fetch(URL, { method: 'POST', headers: headers, cache: 'default' })
+    window.fetch(URL, { method: 'POST', headers: headers, cache: 'default' })
       .then(r => r.json())
       .then(res)
       .catch(rej)
@@ -31,7 +31,6 @@ const fetchQuotes = () => {
       quote.textContent = data.quote
       credit.textContent = `— ${data.author} —`
       tweet.href = `https://twitter.com/intent/tweet?text=${data.quote} -- ${data.author}`
-
     })
 }
 
